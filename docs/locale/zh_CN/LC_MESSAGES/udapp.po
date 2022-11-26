@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  remix-translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 13:45+0800\n"
+"POT-Creation-Date: 2022-09-28 23:16-0400\n"
 "PO-Revision-Date: 2022-06-21 15:24+0000\n"
 "Last-Translator: \n"
 "Language: zh_CN\n"
@@ -34,9 +34,17 @@ msgstr "这部分包含了已部署的合约列表，可以通过自动生成的
 msgid "The deployed contract appears but is in its collapsed form."
 msgstr "已部署的合约如下图展示，默认处于折叠状态。"
 
+#: ../../udapp.md:10
+msgid "![](images/a-debug2-udapp1a.png)"
+msgstr ""
+
 #: ../../udapp.md:12
 msgid "Click the sideways caret to open it up."
 msgstr "单击左侧的小图标可以把它打开。"
+
+#: ../../udapp.md:14 ../../udapp.md:64
+msgid "![](images/a-udapp1.png)"
+msgstr ""
 
 #: ../../udapp.md:16
 msgid ""
@@ -45,36 +53,45 @@ msgid ""
 msgstr "打开后您就可以看到合约中的方法。每一个方法按钮可能会有不同的颜色。"
 
 #: ../../udapp.md:18
+#, fuzzy
 msgid ""
-"Functions that are constant or pure functions in Solidity have a blue "
-"buttons. Clicking one of this type does not create a new transaction. So "
-"clicking will not cause state changes - it will only return a value "
+"Functions that are `constant` or `pure` functions in Solidity have a blue"
+" buttons. Clicking one of this type does not create a new transaction. So"
+" clicking will not cause state changes - it will only return a value "
 "stored in the contract - so it won't cost you anything in gas fees."
 msgstr ""
-"Solidity 中表示常量或纯函数的方法会有一个蓝色按钮。单击此类按钮不会创建新交易。"
-"所以点击不会导致状态改变 — 它只会返回一个存储在合约中的值 — 所以它不会消耗你 gas 费用。"
+"Solidity 中表示常量或纯函数的方法会有一个蓝色按钮。单击此类按钮不会创建新交易。所以点击不会导致状态改变 — "
+"它只会返回一个存储在合约中的值 — 所以它不会消耗你 gas 费用。"
 
 #: ../../udapp.md:20
+#, fuzzy
 msgid ""
 "Functions that change the state of the contract AND that do not accept "
-"Ether are called non-payable functions and have an orange button. "
+"Ether are called `non-payable` functions and have an orange button. "
 "Clicking on them will create a transaction and thus cost gas."
-msgstr "那些会更改合约状态且不接受以太币的方法称为不可支付方法，这种方法会有一个橙色按钮。 "
-"点击它们会创建一个交易，因此会产生 gas 费用。"
+msgstr "那些会更改合约状态且不接受以太币的方法称为不可支付方法，这种方法会有一个橙色按钮。 点击它们会创建一个交易，因此会产生 gas 费用。"
 
 #: ../../udapp.md:22
+#, fuzzy
 msgid ""
-"Functions that have red buttons are payable functions in Solidity. "
+"Functions that have red buttons are `payable` functions in Solidity. "
 "Clicking one of these will create a new transaction and this transaction "
-"can accept a value.  The value is put in in the Value field which is "
-"under the Gas Limit field."
+"can accept a **value**.  The **value** is put in in the Value field which"
+" is under the Gas Limit field."
 msgstr ""
-"带有红色按钮的方法是 Solidity 中的可支付方法。单击这种按钮会创建一个新交易，并且该交易可以接受一个值。"
-"这个值可以在 Gas Limit 字段下面的 Value 字段中指定。"
+"带有红色按钮的方法是 Solidity 中的可支付方法。单击这种按钮会创建一个新交易，并且该交易可以接受一个值。这个值可以在 Gas Limit "
+"字段下面的 Value 字段中指定。"
+
+#: ../../udapp.md:24
+msgid "![](images/a-jvm-calling-instance.png)"
+msgstr ""
 
 #: ../../udapp.md:27
-msgid "See more information about Solidity modifiers in the Solidity docs. ."
-msgstr "在 Solidity 文档中查看更多有关 Solidity 修饰符的信息。"
+msgid ""
+"See more information about [Solidity "
+"modifiers](https://solidity.readthedocs.io/en/develop/miscellaneous.html?highlight=pure#modifiers)"
+" in the Solidity docs. ."
+msgstr ""
 
 #: ../../udapp.md:31
 msgid "If a function requires input parameters, well.. you gotta put them in."
@@ -83,6 +100,10 @@ msgstr "如果一个方法需要输入参数，那么... 你必须填写。"
 #: ../../udapp.md:33
 msgid "Inputting parameters"
 msgstr "输入参数"
+
+#: ../../udapp.md:35
+msgid "![](images/a-udapp-inputs.png)"
+msgstr ""
 
 #: ../../udapp.md:37
 msgid "Inputting parameters in the collapsed view"
@@ -101,7 +122,8 @@ msgid "Numbers and addresses do not need to be wrapped in double quotes."
 msgstr "数字和地址不需要用双引号括起来。"
 
 #: ../../udapp.md:42
-msgid "Strings need to be wrapped."
+#, fuzzy
+msgid "Strings do not need to be wrapped."
 msgstr "字符串不需要用双引号括起来。"
 
 #: ../../udapp.md:43
@@ -117,10 +139,15 @@ msgid "Inputting parameters in the expanded view"
 msgstr "在展开视图中输入参数"
 
 #: ../../udapp.md:48
+#, fuzzy
 msgid ""
-"Clicking the 'down' caret brings you to the Multi-param Manager - where "
-"you can input the parameters one at a time. Much less confusing!"
+"Clicking the 'down' caret brings you to the *Multi-param Manager* - where"
+" you can input the parameters one at a time. **Much less confusing!**"
 msgstr "单击“向下”图标会展开多参数交互界面 - 您可以一次只输入一个参数。 少了很多混乱！"
+
+#: ../../udapp.md:50
+msgid "![](images/a-udapp-multi-param-man.png)"
+msgstr ""
 
 #: ../../udapp.md:52
 msgid "In the expanded view, strings do not need to be wrapped."
@@ -136,19 +163,19 @@ msgstr "单击剪贴板图标会对输入参数进行编码并复制。 只有�
 msgid ""
 "So if you made a mistake and put a uint8 where an address should have "
 "been, clicking the clipboard here will give you an error."
-msgstr "因此，如果您错将一个 uint8 的值输入到本该是 address 类型的输入框中，"
-"单击此处的剪贴板图标会给您返回一个错误。"
+msgstr "因此，如果您错将一个 uint8 的值输入到本该是 address 类型的输入框中，单击此处的剪贴板图标会给您返回一个错误。"
 
 #: ../../udapp.md:58
 msgid "Low level interactions"
 msgstr "低级交互"
 
 #: ../../udapp.md:60
+#, fuzzy
 msgid ""
 "Low level interactions are used to send funds or calldata or funds & "
-"calldata to a contract through the receive() or fallback() function.  "
-"Typically, you should only need to implement the fallback function if you"
-" are following an upgrade or proxy pattern."
+"calldata to a contract through the **receive()** or **fallback()** "
+"function.  Typically, you should only need to implement the fallback "
+"function if you are following an upgrade or proxy pattern."
 msgstr ""
 "低级交互可以通过 recieve() 或 fallback() 方法，向合约发送资金或 calldata 或者资金和 calldata 。 "
 "通常，您只有在遵循升级或代理模式时，才需要实现 fallback 方法。"
@@ -164,41 +191,53 @@ msgid "Please note the following:"
 msgstr "请注意以下事项："
 
 #: ../../udapp.md:69
+#, fuzzy
 msgid ""
 "If you are executing a plain Ether transfer to a contract, you need to "
 "have the receive() function in your contract.  If your contract has been "
 "deployed and you want to send it funds, you would input the amount of "
-"Ether or Wei etc. (see A in graphic below), and then input NOTHING in the"
-" calldata field of Low level interactions (see B in graphic) and click "
-"the Transact button (see C in graphic below)."
+"Ether or Wei etc. (see **A** in graphic below), and then input "
+"**NOTHING** in the calldata field of **Low level interactions** (see "
+"**B** in graphic) and click the Transact button (see **C** in graphic "
+"below)."
 msgstr ""
 "如果你只是单纯地想往一个合约转账以太币，那么这个合约需要有 receive() 方法。 "
-"如果你的合约已部署，并且你想给它转账以太币，你可以输入以太币的数量(见下图中的 A)，单位可以是 Ether 或 Wei 或其他，"
-"然后在低级交互的 calldata 字段中什么都不需要输入(见下图中的 B)，直接单击 Transact 按钮即可(参见下图中的 C)。"
+"如果你的合约已部署，并且你想给它转账以太币，你可以输入以太币的数量(见下图中的 A)，单位可以是 Ether 或 Wei 或其他，然后在低级交互的"
+" calldata 字段中什么都不需要输入(见下图中的 B)，直接单击 Transact 按钮即可(参见下图中的 C)。"
+
+#: ../../udapp.md:71
+msgid "![](images/a-receive-fun.png)"
+msgstr ""
 
 #: ../../udapp.md:73
+#, fuzzy
 msgid ""
 "If you are sending calldata to your contract with Ether, then you need to"
 " use the fallback() function and have it with the state mutability of "
-"payable."
+"**payable**."
 msgstr "如果您想往您的合约发送 calldata 的同时转账以太币，那么您需要使用 fallback() 方法，并且标识方法的状态可变性为可支付。"
 
 #: ../../udapp.md:75
+#, fuzzy
 msgid ""
-"If you are not sending ether to the contract but are sending call data "
-"then you need to use the fallback() function."
+"If you are not sending ether to the contract but **are** sending call "
+"data then you need to use the fallback() function."
 msgstr "如果你没有向合约转账以太币，只是发送 calldata，那么你需要使用 fallback() 方法。"
 
 #: ../../udapp.md:77
+#, fuzzy
 msgid ""
-"If you break the rules when using the Low level interactions you will be "
-"slapped with a warning."
+"If you break the rules when using the **Low level interactions** you will"
+" be slapped with a warning."
 msgstr "如果您在使用低级交互时违反规则，您将受到警告。"
 
 #: ../../udapp.md:79
+#, fuzzy
 msgid ""
-"Please see the solidity docs for more specifics about using the fallback "
-"and receive functions."
+"Please see the [solidity "
+"docs](https://solidity.readthedocs.io/en/latest/contracts.html#receive-"
+"ether-function) for more specifics about using the **fallback** and "
+"**receive** functions."
 msgstr "更多有关使用 fallback 和 receive 方法的细节，请参阅solidity 文档。"
 
 #: ../../udapp.md:81
@@ -210,13 +249,14 @@ msgid "To pass a tuple in, you need to put in an array []."
 msgstr "要传入一个元组，您需要把元素放到一个数组 [] 里面。"
 
 #: ../../udapp.md:84
+#, fuzzy
 msgid ""
 "Similarly, to pass in a struct as a parameter of a function, it needs to "
-"be put in as an array [].  Also note that the line pragma experimental "
-"ABIEncoderV2; needs to put in at the top of the solidity file."
+"be put in as an array [].  Also note that the line `pragma experimental "
+"ABIEncoderV2;` needs to put in at the top of the solidity file."
 msgstr ""
-"类似地，要将一个结构体作为方法的参数传入，属性值需要放到数组 [] 里面 。 "
-"注意，这行 pragma experimental ABIEncoderV2; 代码需要放在 solidity 文件的顶部。"
+"类似地，要将一个结构体作为方法的参数传入，属性值需要放到数组 [] 里面 。 注意，这行 pragma experimental "
+"ABIEncoderV2; 代码需要放在 solidity 文件的顶部。"
 
 #: ../../udapp.md:88
 msgid "Example of passing nested struct to a function"
@@ -227,9 +267,10 @@ msgid "Consider a nested struct defined like this:"
 msgstr "假定一个嵌套结构体是这样定义："
 
 #: ../../udapp.md:101
+#, fuzzy
 msgid ""
-"If a function has the signature fertilizer(Garden memory gardenPlot) then"
-" the correct syntax is:"
+"If a function has the signature `fertilizer(Garden memory gardenPlot)` "
+"then the correct syntax is:"
 msgstr "如果方法签名是 fertilizer(Garden memory gardenPlot)，那么输入参数的正确语法就是："
 
 #: ../../udapp.md:106
@@ -237,21 +278,26 @@ msgid "To continue on this example, here's a sample contract:"
 msgstr "为了延伸一下这个例子，这里有一个示例合约："
 
 #: ../../udapp.md:133
+#, fuzzy
 msgid ""
 "After compiling, deploying the contract and opening up the deployed "
 "instance, we can then add the following input parameters to the function "
-"named fertilizer :"
+"named **fertilizer** :"
 msgstr "在编译、部署合约并打开部署的实例后，我们可以将下面的输入参数添加到名为 fertilizer 的方法中："
 
 #: ../../udapp.md:139
+#, fuzzy
 msgid ""
-"The function fertilizer accepts a single parameter of the type Garden. "
-"The type Garden is a struct. Structs are wrapped in square brackets.  "
-"Inside Garden is an array that is an array of structs named theFlowers. "
-"It gets a set of brackets for the array and another set for the struct. "
-"Thus the double square brackets."
+"The function **fertilizer** accepts a single parameter of the type "
+"**Garden**. The type **Garden** is a **struct**. Structs are wrapped in "
+"**square brackets**.  Inside **Garden** is an array that is an array of "
+"structs named **theFlowers**. It gets a set of brackets for the array and"
+" another set for the struct. Thus the double square brackets."
 msgstr ""
-"fertilizer 方法只接受一个 Garden 类型的参数。 Garden 类型是一个结构体。 结构体用方括号括起来。 "
-"Garden 内部有一个叫 theFlowers 数组，这个数组的元素也是结构体。 theFlowers 数组本来就有一对括号，"
-"里面的结构体元素又有另一对括号。 所以，这里出现了两个方括号。"
+"fertilizer 方法只接受一个 Garden 类型的参数。 Garden 类型是一个结构体。 结构体用方括号括起来。 Garden "
+"内部有一个叫 theFlowers 数组，这个数组的元素也是结构体。 theFlowers 数组本来就有一对括号，里面的结构体元素又有另一对括号。"
+" 所以，这里出现了两个方括号。"
+
+#~ msgid "See more information about Solidity modifiers in the Solidity docs. ."
+#~ msgstr "在 Solidity 文档中查看更多有关 Solidity 修饰符的信息。"
 
