@@ -37,9 +37,8 @@ msgid "File Storage"
 msgstr "文件存储"
 
 #: ../../file_explorer.md:12
-#, fuzzy
 msgid "By default, Remix IDE stores files in **IndexedDB**."
-msgstr "Remix IDE 默认把文件储存在 IndexedDB 中。"
+msgstr "Remix IDE 默认把文件储存在 **IndexedDB** 中。"
 
 #: ../../file_explorer.md:14
 msgid ""
@@ -52,22 +51,20 @@ msgstr ""
 "Remix 只把你的代码保存在你的浏览器存储空间中。所以要小心，浏览器的存储不是永久的!"
 
 #: ../../file_explorer.md:16
-#, fuzzy
 msgid ""
 "**Important Note:** Clearing the browser storage & IndexedDB will "
 "**permanently delete** all the files stored there."
-msgstr "重要提示：清除浏览器存储和 IndexedDB 会永久性的删除所有储存在里面的文件。"
+msgstr "**重要提示:** 清除浏览器存储和 IndexedDB 会**永久性的删除**所有储存在里面的文件。"
 
 #: ../../file_explorer.md:18
 msgid "File Storage outside of the browser and Version Control"
 msgstr "浏览器外的文件存储和版本控制"
 
 #: ../../file_explorer.md:20
-#, fuzzy
 msgid ""
 "If you want to use browser storage, but also to save a git repo on IPFS, "
 "use the **DGIT** plugin."
-msgstr "如果你想使用浏览器存储，并且同时保存一个 git 仓库到 IPFS ，请使用 DGIT 插件。"
+msgstr "如果你想使用浏览器存储，并且同时保存一个 git 仓库到 IPFS ，请使用 **DGIT** 插件。"
 
 #: ../../file_explorer.md:22
 msgid ""
@@ -76,7 +73,9 @@ msgid ""
 "IDE](https://github.com/ethereum/remix-desktop/releases/)**. Remixd "
 "enables you to have access to a selected folder on your hard drive. Remix"
 " Desktop is a version of Remix IDE in an Electron app."
-msgstr ""
+msgstr "如果你想把文件储存在你电脑的文件系统内，请使用 **[Remixd](remixd.html)** "
+"或者使用 **[桌面版 Remix IDE](https://github.com/ethereum/remix-desktop/releases/)** 。"
+"Remixd 让你可以访问你硬盘上某个你选中的文件夹。Remix Desktop 是用 Electron 构建的 Remix IDE 。"
 
 #: ../../file_explorer.md:24
 msgid ""
@@ -85,6 +84,10 @@ msgid ""
 "clone-and-push-"
 "f1350111aa13?source=friends_link&sk=a3dbd0d3b0b44a29a28e8c10f8821fde)"
 msgstr ""
+"您也可以阅读这篇关于[在 Remix 中保护您的文件]"
+"(https://medium.com/remix-ide/securing-you-file-in-remix-how-to-"
+"clone-and-push-"
+"f1350111aa13?source=friends_link&sk=a3dbd0d3b0b44a29a28e8c10f8821fde)的文章"
 
 #: ../../file_explorer.md:26
 msgid "File Explorer Tour"
@@ -95,9 +98,8 @@ msgid "![](images/a-fe-tour.png)"
 msgstr ""
 
 #: ../../file_explorer.md:31
-#, fuzzy
 msgid "The book icon - **G.** is the link to the documentation (this page)."
-msgstr "这个图书一样的图标 - G. 是文件管理器的文档链接。"
+msgstr "这个图书一样的图标 - **G.** 是文件管理器的文档链接。"
 
 #: ../../file_explorer.md:33
 msgid "Workspaces"
@@ -111,22 +113,18 @@ msgid ""
 msgstr "工作区可以帮你组织你的文件并且分离你的项目。以下是管理工作区的基本操作。下方粗体字母对应图1中的红色标签"
 
 #: ../../file_explorer.md:37
-#, fuzzy
 msgid "**A.** Add a Workspace <br>"
-msgstr "A. 新增一个工作区 <br>"
+msgstr "**A.** 新增一个工作区 <br>"
 
 #: ../../file_explorer.md:38
-#, fuzzy
 msgid "**B.** Rename a Workspace  <br>"
-msgstr "B. 重命名一个工作区  <br>"
+msgstr "**B.** 重命名一个工作区  <br>"
 
 #: ../../file_explorer.md:39
-#, fuzzy
 msgid "**C.** Delete a Workspace  <br>"
-msgstr "C. 删除一个工作区  <br>"
+msgstr "**C.** 删除一个工作区  <br>"
 
 #: ../../file_explorer.md:40
-#, fuzzy
 msgid ""
 "**D.** Download all Workspaces This will create a .zip file with all the "
 "files of all the Workspaces.  The zip file will have a folder called "
@@ -134,33 +132,28 @@ msgid ""
 "on your OS, you may need to change the preferences on .workspaces folder "
 "to make it visible.  <br>"
 msgstr ""
-"D. 下载所有工作区。这会创建一个包含所有工作区中所有文件的 .zip 文件。这个 zip 文件里有一个 .workspaces "
+"**D.** 下载所有工作区。这会创建一个包含所有工作区中所有文件的 .zip 文件。这个 zip 文件里有一个 **.workspaces** "
 "文件夹，这个文件夹下有每一个工作区的文件夹。根据您的操作系统，您可能需要改变 .workspaces 文件夹上的设置，使其可见。  <br>"
 
 #: ../../file_explorer.md:41
-#, fuzzy
 msgid "**E.** Upload the Workspaces backup made from the previous icon. <br>"
-msgstr "E. 上传通过前一个图标下载的工作区备份文件。 <br>"
+msgstr "**E.** 上传通过前一个图标下载的工作区备份文件。 <br>"
 
 #: ../../file_explorer.md:42
-#, fuzzy
 msgid "**F.** Clone a repo from Git repository <br>"
-msgstr "F. 从 Git 仓库克隆一个项目 <br>"
+msgstr "**F.** 从 Git 仓库克隆一个项目 <br>"
 
 #: ../../file_explorer.md:43
-#, fuzzy
 msgid "**G.** Link to documentation <br>"
-msgstr "G. 文档链接 <br>"
+msgstr "**G.** 文档链接 <br>"
 
 #: ../../file_explorer.md:44
-#, fuzzy
 msgid "**J.** Publish the Workspace to a GIST <br>"
-msgstr "J. 把工作区发布到 GIST <br>"
+msgstr "**J.** 把工作区发布到 GIST <br>"
 
 #: ../../file_explorer.md:45
-#, fuzzy
 msgid "**L.** Choose a Workspace"
-msgstr "L. 选择一个工作区"
+msgstr "**L.** 选择一个工作区"
 
 #: ../../file_explorer.md:46
 msgid "File Manipulation"
@@ -171,19 +164,16 @@ msgid "The letters in bold below refer to the labels in fig. 1."
 msgstr "下方粗体字母对应图1中的红色标签"
 
 #: ../../file_explorer.md:49
-#, fuzzy
 msgid "**H.** Create a file  <br>"
-msgstr "H. 新建一个文件  <br>"
+msgstr "**H.** 新建一个文件  <br>"
 
 #: ../../file_explorer.md:50
-#, fuzzy
 msgid "**I.** Create a folder  <br>"
-msgstr "I. 新建一个文件夹  <br>"
+msgstr "**I.** 新建一个文件夹  <br>"
 
 #: ../../file_explorer.md:51
-#, fuzzy
 msgid "**K.** Load a local file into the current Workspace<br>"
-msgstr "K. 加载一个本地文件到当前工作区 <br>"
+msgstr "**K.** 加载一个本地文件到当前工作区 <br>"
 
 #: ../../file_explorer.md:53
 msgid "Workspaces with Templates"
@@ -204,13 +194,12 @@ msgid "Workspaces & cloning a repo"
 msgstr "工作区 & 克隆一个仓库"
 
 #: ../../file_explorer.md:59
-#, fuzzy
 msgid ""
 "When you click the **clone** icon (**F.** in fig.1), you'll be asked for "
 "the url of the repo.  A new workspace will be created that will contain "
 "the cloned repo.  To manage the Git repo, go to the DGIT plugin."
 msgstr ""
-"当你点击克隆图标 (图1中的F)，你需要填写一个仓库链接。一个新的工作区就会被创建，里面包含了克隆下来的仓库。想要管理这个 Git 仓库，请使用 "
+"当你点击**克隆**图标 (图1中的**F.**)，你需要填写一个仓库链接。一个新的工作区就会被创建，里面包含了克隆下来的仓库。想要管理这个 Git 仓库，请使用 "
 "DGIT 插件。"
 
 #: ../../file_explorer.md:61
@@ -236,7 +225,6 @@ msgid "There are 2 ways of creating files:"
 msgstr "新建文件有两种方式："
 
 #: ../../file_explorer.md:69
-#, fuzzy
 msgid ""
 "The first is to click on the new file icon (**H.** in fig.1), then an "
 "input for the new file’s name will appear in the **File Explorer**. Once "
@@ -244,9 +232,9 @@ msgid ""
 "file's name is entered **without** a file extension, the extension "
 "**.sol** will be appended by default."
 msgstr ""
-"第一种方式是点击新建文件图标 "
-"(图1中的H)，然后文件管理器中会出现一个输入框用来输入新文件的名称。输入文件名后，编辑器中就会打开一个新的空文件。如果文件名没有后缀，就会自动添加默认后缀"
-" .sol 。"
+"第一种方式是点击新建文件图标 (图1中的**H.**)，然后**文件管理器**中会出现一个输入框用"
+"来输入新文件的名称。输入文件名后，编辑器中就会打开一个新的空文件。如果文件名**没有**后缀，"
+"就会自动添加默认后缀 **.sol** 。"
 
 #: ../../file_explorer.md:71
 msgid "![](images/a-file-explorer-new-file2.png)"
@@ -259,7 +247,6 @@ msgid ""
 msgstr "第二种方式，右键点击一个文件或文件夹就会弹出一个操作菜单。"
 
 #: ../../file_explorer.md:75
-#, fuzzy
 msgid ""
 "The new file will be placed in **the currently selected folder** of the "
 "Workspace. If a file and not a folder is selected, then the new file will"
@@ -267,39 +254,37 @@ msgid ""
 "file will be placed in the root of the current workspace's folder. Or to "
 "be brief — just be mindful of what folder it lands in."
 msgstr ""
-"新文件将放置在工作区当前选定的文件夹中。如果选择了文件而不是文件夹，则新文件将放置在该文件的文件夹中。如果未选择任何内容，则该文件将放置在当前工作区文件夹的根目录中。或者简而言之"
-" — 注意新文件所在的文件夹。"
+"新文件将放置在工作区**当前选中的文件夹**中。如果选择了文件而不是文件夹，则新文件将放置在该文件的文件夹中。"
+"如果未选择任何内容，则该文件将放置在当前工作区文件夹的根目录中。或者简而言之 — 注意新文件所在的文件夹。"
 
 #: ../../file_explorer.md:77
 msgid "Publish to Gist"
 msgstr "发布到 Gist"
 
 #: ../../file_explorer.md:80
-#, fuzzy
 msgid ""
 "The icon (marked **J.** in fig.1) publishes all files from the current "
 "Workspace to a gist. **The Gist API requires users to be authenticated** "
 "to be able to publish a gist."
-msgstr "这个图标 (标注在图1中的J) 可以发布当前工作区的所有文件到 gist。Gist API 需要用户授权才能把文件发布到 gist 。"
+msgstr "这个图标 (标注在图1中的**J.**) 可以发布当前工作区的所有文件到 gist。**Gist API 需要用户授权**才能把文件发布到 gist 。"
 
 #: ../../file_explorer.md:82
-#, fuzzy
 msgid ""
 "Click [this link](https://github.com/settings/tokens) to Github tokens "
 "setup and select Generate new token. Then check the **Create gists** "
 "checkbox and generate a new token. Also make sure you check the box to "
 "enable the creation of Gists with this token."
 msgstr ""
-"点击这个链接去到 Github 访问令牌管理页面，点击 Generate new token 按钮。选中 Create gists 复选框，再点击"
-" Generate token 按钮即可生成一个新的访问令牌。请确认你已选中 Create gists 复选框，这可以使你的访问令牌拥有创建 "
+"点击[这个链接](https://github.com/settings/tokens)去到 Github 访问令牌管理页面，"
+"点击 Generate new token 按钮。选中 **Create gists** 复选框，再点击 Generate token 按钮"
+"即可生成一个新的访问令牌。请确认你已选中 Create gists 复选框，这可以使你的访问令牌拥有创建 "
 "Gists 的权限。"
 
 #: ../../file_explorer.md:84
-#, fuzzy
 msgid ""
 "Take the token and paste it in Remix's **Settings** module in the "
 "**Github Access Token** section. And then click Save."
-msgstr "复制这个访问令牌，黏贴到 Remix 设置模块中的 Github 访问令牌那一栏。然后点击保存。"
+msgstr "复制这个访问令牌，黏贴到 Remix **设置**模块中的 **Github 访问令牌**那一栏。然后点击保存。"
 
 #: ../../file_explorer.md:86
 msgid "You can also publish by right clicking on the file or folder."
@@ -327,15 +312,14 @@ msgid ""
 msgstr "上下文菜单的功能也适用于 RemixD (它使您可以访问硬盘驱动器上的文件夹)。"
 
 #: ../../file_explorer.md:97
-#, fuzzy
 msgid ""
 "**Note:** When working with RemixD, and when adding files to the shared "
 "folder from your computer (and not from Remix), you'll need to open and "
 "close the containing folder or switch in and out of **localhost** "
 "workspace to refresh the view."
 msgstr ""
-"注意：使用 RemixD 时，如果直接在你电脑上（而不是通过 Remix "
-"）添加文件到共享文件夹，您需要打开且关闭添加文件所在的文件夹，或者切换到别的工作区再切回 localhost 工作区，这样才能以刷新视图。"
+"**注意:** 使用 RemixD 时，如果直接在你电脑上（而不是通过 Remix ）添加文件到共享文件夹，"
+"您需要打开且关闭添加文件所在的文件夹，或者切换到别的工作区再切回 **localhost** 工作区，这样才能以刷新视图。"
 
 #: ../../file_explorer.md:99
 msgid "Right-Click on a Solidity file"
@@ -360,23 +344,21 @@ msgid "![](images/a-fe-rtclick-script.png)"
 msgstr ""
 
 #: ../../file_explorer.md:110
-#, fuzzy
 msgid ""
 "Right-click on any file with a .js or .ts extension to get the **Run** "
 "option in the context menu to run the script.  The **Run** in the context"
 " menu is a shortcut.  The other way to get a script to run is to:"
 msgstr ""
-"右键点击任何 .js 或 .ts 后缀的文件，操作菜单中会多出一个 Run 选项，点击即可执行该脚本。操作菜单中的 Run "
-"选项是个快捷键。另一种执行脚本的方式是："
+"右键点击任何 .js 或 .ts 后缀的文件，操作菜单中会多出一个 **Run** 选项，点击即可执行该脚本。"
+"操作菜单中的 **Run** 选项是个快捷键。另一种执行脚本的方式是："
 
 #: ../../file_explorer.md:111
 msgid "Click on the script to make it the active tab in the editor"
 msgstr "点击脚本，使该脚本在编辑器中出于选中状态。"
 
 #: ../../file_explorer.md:112
-#, fuzzy
 msgid "Input the command `remix.exeCurrent()` in the console."
-msgstr "在控制台输入 remix.exeCurrent() 命令。"
+msgstr "在控制台输入 `remix.exeCurrent()` 命令。"
 
 #~ msgid "The book icon - F. is the link to the documentation (this page)."
 #~ msgstr ""

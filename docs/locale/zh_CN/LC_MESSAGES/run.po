@@ -19,11 +19,10 @@ msgid "Deploy & Run"
 msgstr "部署 & 运行"
 
 #: ../../run.md:4
-#, fuzzy
 msgid ""
 "![](images/a-run-icon.png) The Deploy & Run module allows you to send "
 "transactions to the current environment."
-msgstr "部署 & 运行 模块可以让您把交易发送到当前环境。"
+msgstr "![](images/a-run-icon.png) 部署 & 运行 模块可以让您把交易发送到当前环境。"
 
 #: ../../run.md:6
 msgid ""
@@ -35,8 +34,8 @@ msgid ""
 "compile it, and then come back to Deploy & Run."
 msgstr ""
 "要使用这个模块，你需要先编译一个合约。 如果 <b>CONTRACT</b> 选择框(选择框在 VALUE 输入字段下方) "
-"中有合约名称，则表示您可以使用该模块。 "
-"如果什么都没有或者你没有看到你想要的合约，你就需要在编辑器中选择一个合约来激活它，并且在编译器模块中编译它，然后再回到 部署 & 运行。"
+"中有合约名称，则表示您可以使用该模块。如果什么都没有或者你没有看到你想要的合约，你就需要"
+"在编辑器中选择一个合约来激活它，并且在编译器模块中编译它，然后再回到 部署 & 运行。"
 
 #: ../../run.md:8
 msgid "![](images/a-runtab1a.png)"
@@ -47,7 +46,6 @@ msgid "Environment"
 msgstr "环境"
 
 #: ../../run.md:13
-#, fuzzy
 msgid ""
 "`Remix VM (London)` : For connecting to a sandbox blockchain in the "
 "browser. The Remix VM (previously called JavaScript VM) is its own "
@@ -55,50 +53,45 @@ msgid ""
 " blockchain will be started. **The old one will not be saved**.  The "
 "London refers to the London fork of Ethereum."
 msgstr ""
-"Remix VM (London) : 用于连接到浏览器中的沙盒区块链。 Remix VM（以前叫 JavaScript "
-"VM）是它自己的“区块链”，每次重新加载时，都会清除旧链，并且启动一条新链。旧链不会被保存下来。London 指的是以太坊的伦敦分叉。"
+"`Remix VM (London)` : 用于连接到浏览器中的沙盒区块链。 Remix VM (以前叫 JavaScript "
+"VM) 是它自己的 \"blockchain\" ，每次重新加载时，都会清除旧链，并且启动一条新链。"
+"**旧链不会被保存下来**。London 指的是以太坊的伦敦分叉。"
 
 #: ../../run.md:15
-#, fuzzy
 msgid ""
 "`Remix VM (Berlin)` : Same as above except this chain is using the Berlin"
 " fork of Ethereum."
-msgstr "Remix VM (Berlin) : 和上面一样，只不过这里用的额是以太坊的柏林分叉。"
+msgstr "`Remix VM (Berlin)` : 和上面一样，只不过这里用的额是以太坊的柏林分叉。"
 
 #: ../../run.md:17
-#, fuzzy
 msgid ""
 "`Injected Provider - provider name`: For connecting Remix to an injected "
 "web3 provider. The most common injected provider is `Metamask`."
 msgstr ""
-"Injected Provider - provider name: 用于将 Remix 连接到一个注入式 web3 "
-"provider。最常见的注入式 provider 是 Metamask。"
+"`Injected Provider - provider name`: 用于将 Remix 连接到一个注入式 web3 "
+"provider。最常见的注入式 provider 是 `Metamask`。"
 
 #: ../../run.md:20
-#, fuzzy
 msgid "`Hardhat Provider`: For connecting Remix to a local Hardhat test chain."
-msgstr "Hardhat Provider: 用于将 Remix 连接到一个本地的 Hardhat 测试链。"
+msgstr "`Hardhat Provider`: 用于将 Remix 连接到一个本地的 Hardhat 测试链。"
 
 #: ../../run.md:22
-#, fuzzy
 msgid ""
 "`Ganache Provider`: For connecting Remix to a local Truffle Ganache test "
 "chain."
-msgstr "Ganache Provider: 用于将 Remix 连接到一个本地的 Truffle Ganache 测试链。"
+msgstr "`Ganache Provider`: 用于将 Remix 连接到一个本地的 Truffle Ganache 测试链。"
 
 #: ../../run.md:24
-#, fuzzy
 msgid ""
 "`Foundry Provider`: For connecting Remix to a local Foundry Anvil test "
 "chain."
-msgstr "Foundry Provider: 用于将 Remix 连接到一个本地的 Foundry Anvil 测试链。"
+msgstr "`Foundry Provider`: 用于将 Remix 连接到一个本地的 Foundry Anvil 测试链。"
 
 #: ../../run.md:26
-#, fuzzy
 msgid ""
 "`WalletConnect`: For using the WalletConnect allowing you to approve "
 "transactions on a mobile device."
-msgstr "WalletConnect: 使用 WalletConnect ，您可以在移动设备上批准交易。"
+msgstr "`WalletConnect`: 使用 WalletConnect ，您可以在移动设备上批准交易。"
 
 #: ../../run.md:28
 msgid ""
@@ -106,28 +99,27 @@ msgid ""
 "need to provide the URL to the selected provider: geth, parity or any "
 "Ethereum client. This was previously called **Web3 Provider**."
 msgstr ""
+"`External HTTP Provider`: Remix 会连接一个远程节点。您需要提供 URL 对应您选中的 "
+"provider: geth, parity 或者任何以太坊客户端。这以前叫 **Web3 Provider**."
 
 #: ../../run.md:30
-#, fuzzy
 msgid ""
 "`L2 - Optimism Provider`: For connecting Remix to an Injected Provider "
 "(usually Metamask) with the settings for the Optimism Network's mainnet."
 msgstr ""
-"L2 - Optimism Provider: 用于将 Remix 连接到一个设置了 Optimism 主网环境的注入式 Provider(通常是"
+"`L2 - Optimism Provider`: 用于将 Remix 连接到一个设置了 Optimism 主网环境的注入式 Provider(通常是"
 " Metamask) 。"
 
 #: ../../run.md:32
-#, fuzzy
 msgid ""
 "`L2 - Arbitrum One Provider`: For connecting Remix to an Injected "
 "Provider (usually Metamask) with the settings for the Arbitrum One "
 "network."
 msgstr ""
-"L2 - Arbitrum One Provider: 用于将 Remix 连接到一个设置了 Arbitrum One 网络的注入式 "
+"`L2 - Arbitrum One Provider`: 用于将 Remix 连接到一个设置了 Arbitrum One 网络的注入式 "
 "Provider(通常是 Metamask) 。"
 
 #: ../../run.md:34
-#, fuzzy
 msgid "More about External HTTP Provider"
 msgstr "更多关于外部 HTTP Provider"
 
@@ -136,7 +128,7 @@ msgid ""
 "If you are using Geth & https://remix.ethereum.org, please use the "
 "following Geth command to allow requests from Remix:"
 msgstr ""
-"如果您使用 Geth 和 https://remix.ethereum.org，请使用以下命令来启动 Geth，这样 Geth 就可以接受来自 "
+"如果您使用 Geth 和 https://remix.ethereum.org ，请使用以下命令来启动 Geth ，这样 Geth 就可以接受来自 "
 "Remix 的跨域请求："
 
 #: ../../run.md:42
@@ -144,12 +136,13 @@ msgid ""
 "Also see [Geth Docs about the http "
 "server](https://geth.ethereum.org/docs/rpc/server)"
 msgstr ""
+"请参阅 [Geth 文档中关于 http 服务的内容](https://geth.ethereum.org/docs/rpc/server)"
 
 #: ../../run.md:44
 msgid ""
 "To run Remix using  https://remix.ethereum.org & a local test node, use "
 "this Geth command:"
-msgstr "要使用 https://remix.ethereum.org 和本地测试节点来运行 Remix，请使用以下 Geth 命令："
+msgstr "要使用 https://remix.ethereum.org 和本地测试节点来运行 Remix ，请使用以下 Geth 命令："
 
 #: ../../run.md:50
 msgid ""
@@ -168,45 +161,42 @@ msgid ""
 "Also see [Geth Docs on Dev mode](https://geth.ethereum.org/getting-"
 "started/dev-mode)"
 msgstr ""
+"请参阅 [Geth 文档中关于开发模式的内容](https://geth.ethereum.org/getting-"
+"started/dev-mode)"
 
 #: ../../run.md:60
-#, fuzzy
 msgid "The Web3 Provider Endpoint for a local node is **http://localhost:8545**"
-msgstr "本地节点的 Web3 Provider Endpoint 是 http://localhost:8545"
+msgstr "本地节点的 Web3 Provider Endpoint 是 **http://localhost:8545**"
 
 #: ../../run.md:64
-#, fuzzy
 msgid ""
 "**WARNING:** Don't get lazy. It is a bad idea to use the Geth flag "
 "<b>--http.corsdomain</b> with a wildcard: `--http.corsdomain *`"
 msgstr ""
-"提醒：别偷懒。有一种很不明智的做法，就是在 Geth 参数标识 <b>--http.corsdomain</b> 后面跟一个通配符: "
-"--http.corsdomain *"
+"**提醒:** 别偷懒。有一种很不明智的做法，就是在 Geth 参数标识 <b>--http.corsdomain</b> 后面跟一个通配符: "
+"`--http.corsdomain *`"
 
 #: ../../run.md:66
-#, fuzzy
 msgid ""
 "If you put the wildcard `*`, it means everyone can request the node. "
 "Whereas, if you put a URL, it restricts the urls to just that one - e.g."
 "  `--http.corsdomain 'https://remix-alpha.ethereum.org'`"
 msgstr ""
-"如果你是用通配符 * ，这就意味着所有人都可以访问这个节点。但是，如果你是用 URL，那么允许跨域访问的 url 就只有这一个 — 示例  "
-"--http.corsdomain 'https://remix-alpha.ethereum.org'"
+"如果你是用通配符 `*` ，这就意味着所有人都可以访问这个节点。但是，如果你是用 URL ，那么允许跨域访问的 url 就只有这一个 — 示例  "
+"`--http.corsdomain 'https://remix-alpha.ethereum.org'`"
 
 #: ../../run.md:68
-#, fuzzy
 msgid ""
 "Only use `--http.corsdomain *` when using a **test chain** AND using only"
 " **test accounts**. For real accounts or on the mainchain **specify the "
 "url**."
-msgstr "只在使用测试链或测试账户时使用 --http.corsdomain * 。如果使用真实账户或在主链上，请指明 url 。"
+msgstr "只在使用**测试链**或**测试账户**时使用 `--http.corsdomain *` 。如果使用真实账户或在主链上，**请指明 url** 。"
 
 #: ../../run.md:73
 msgid "Account:"
 msgstr "账户："
 
 #: ../../run.md:75
-#, fuzzy
 msgid ""
 "Account: the list of accounts associated with the current  environment "
 "(and their associated balances).  On the Remix VM, you have a choice of 5"
@@ -221,7 +211,6 @@ msgid "Gas Limit:"
 msgstr "Gas 限制："
 
 #: ../../run.md:80
-#, fuzzy
 msgid ""
 "This sets the maximum amount of gas that will be allowed for all the  "
 "transactions created in Remix."
@@ -232,20 +221,18 @@ msgid "Value:"
 msgstr "以太币："
 
 #: ../../run.md:85
-#, fuzzy
 msgid ""
 "This sets the amount of ETH, WEI, GWEI etc that is sent to a contract or "
 "a payable function. <br>  **Note:** payable functions have a red button."
 msgstr ""
-"这里设置了发送到一个合约或者 payable 函数的以太币数量，单位可以是 ETH、WEI、GWEI 等。<br> 注意：payable "
+"这里设置了发送到一个合约或者 payable 函数的以太币数量，单位可以是 ETH、WEI、GWEI 等。<br> **注意:** payable "
 "函数有一个红色按钮。"
 
 #: ../../run.md:88
-#, fuzzy
 msgid ""
 "The **Value** field is always reset to 0 after each transaction "
 "execution. <br> The **Value** field is **NOT** for gas."
-msgstr "每笔交易执行后，这个 以太币 字段总是会被重置为0。<br> 这个 以太币 字段不是用作 gas 消耗的。"
+msgstr "每笔交易执行后，这个 **Value** 字段总是会被重置为0。<br> 这个 **Value** 字段**不是**用作 gas 消耗的。"
 
 #: ../../run.md:91
 msgid "![](images/a-Runtab-deploy-atAddress.png)"
@@ -256,47 +243,42 @@ msgid "Deploy & AtAddress"
 msgstr "部署 & AtAddress"
 
 #: ../../run.md:96
-#, fuzzy
 msgid ""
 "In the image above, the select box is set to **Ballot**.  This select box"
 " will contain the list of compiled contracts."
-msgstr "在上图中，下拉选框选中了 Ballot。 这个下拉选框会包含已编译合约的列表。"
+msgstr "在上图中，下拉选框选中了 **Ballot**。 这个下拉选框会包含已编译合约的列表。"
 
 #: ../../run.md:98
-#, fuzzy
 msgid ""
 "`Deploy` sends a transaction that deploys the selected contract. When the"
 " transaction is mined, the newly created instance will be added (this "
 "might take several seconds). <br>**Note:** If the contract's constructor "
 "function has parameters, you need to specify them."
 msgstr ""
-"部署 会发送一笔部署当前选中合约的交易。当这笔交易被打包时，新创建的实例将被添加已部署的合约列表中（这可能需要几秒钟）。<br> "
-"注意：如果合约的构造函数有参数，您需要指定它们。"
+"`部署`会发送一笔部署当前选中合约的交易。当这笔交易被打包时，新创建的实例将被添加已部署的合约列表中（这可能需要几秒钟）。<br> "
+"**注意:** 如果合约的构造函数有参数，您需要指定它们。"
 
 #: ../../run.md:102
-#, fuzzy
 msgid ""
 "`At Address` is used to access a contract that has already been deployed."
 " Because the contract is already deployed, accessing a contract with "
 "**AtAddress** does not cost gas."
-msgstr "At Address 是用来访问已经部署的合约。因为合约已经部署，通过 AtAddress 来访问合约不需要消耗 gas 。"
+msgstr "`At Address` 是用来访问已经部署的合约。因为合约已经部署，通过 **AtAddress** 来访问合约不需要消耗 gas 。"
 
 #: ../../run.md:104
-#, fuzzy
 msgid ""
 "**Note:** When using AtAddress, be sure you trust the contract at that "
 "address."
-msgstr "注意：当使用 AtAddress 时，请您确保这个地址的合约是可信的。"
+msgstr "**注意:** 当使用 AtAddress 时，请您确保这个地址的合约是可信的。"
 
 #: ../../run.md:106
-#, fuzzy
 msgid ""
 "To use **AtAddress**, you need to have the **source code** or **ABI** of "
 "the deployed contract  **in the active tab** of the editor.  When using "
 "the source code, it must be compiled with the same compilation settings "
 "as the deployed contract that you are trying access."
 msgstr ""
-"使用 AtAddress ，您需要有已部署且在编辑器中处于选中状态的合约的源码或 ABI "
+"使用 **AtAddress** ，您需要有已部署且在编辑器中**处于选中状态**的合约的**源码**或 **ABI** "
 "。当使用源码时，合约必须通过和你想访问的已部署合约相同的编译设置进行编译。"
 
 #: ../../run.md:108
@@ -304,36 +286,32 @@ msgid "Using the ABI with AtAddress"
 msgstr "通过 ABI 来使用 AtAddress"
 
 #: ../../run.md:111
-#, fuzzy
 msgid "The **ABI** is a JSON array which describes the contract's interface."
-msgstr "ABI 是一个描述合约接口的 JSON 数组。"
+msgstr "**ABI** 是一个描述合约接口的 JSON 数组。"
 
 #: ../../run.md:113
-#, fuzzy
 msgid ""
 "To interact with a contract using the ABI, create a new file in Remix "
 "with extension ***.abi** and copy the ABI content to it."
-msgstr "通过 ABI 来合约交互的话，需要在 Remix 中创建一个 *.abi 后缀的新文件，然后把 ABI 信息复制进去。"
+msgstr "通过 ABI 来合约交互的话，需要在 Remix 中创建一个 ***.abi** 后缀的新文件，然后把 ABI 信息复制进去。"
 
 #: ../../run.md:116
-#, fuzzy
 msgid ""
 "Make sure this file is the active tab in the editor. Then, in the field "
 "next to `At Address`, input the contract's address and click on `At "
 "Address`. If successful, an instance of the contract will appear below - "
 "in the list of **Deployed Contracts**."
 msgstr ""
-"确保这个文件在编辑器中处于选中状态。然后，在 At Address 旁边的输入框中，输入合约地址，再点击 At Address "
-"。如果成功的话，下面会出现这个合约的实例 - 在已部署合约列表中。"
+"确保这个文件在编辑器中处于选中状态。然后，在 `At Address` 旁边的输入框中，输入合约地址，再点击 `At Address` "
+"。如果成功的话，下面会出现这个合约的实例 - 在**已部署合约列表**中。"
 
 #: ../../run.md:118
-#, fuzzy
 msgid ""
 "**Note:** To generate the ABI, in the Solidity compiler, after a contract"
 " is compiled, click on the **Compilation Details** button.  A modal will "
 "come up with that contains the ABI among other info."
 msgstr ""
-"注意：想要 ABI 的话，在 Solidity 编译器中，当一个合约编译后，点击 编译详情 按钮。就会弹出一个对话框，里面包含了 ABI "
+"**注意:** 想要 ABI 的话，在 Solidity 编译器中，当一个合约编译后，点击**编译详情**按钮。就会弹出一个对话框，里面包含了 ABI "
 "还有其他信息。"
 
 #: ../../run.md:120
@@ -341,22 +319,20 @@ msgid "Pending Instances"
 msgstr "Pending 实例"
 
 #: ../../run.md:123
-#, fuzzy
 msgid ""
 "Validating a transaction takes several seconds. During this time, the GUI"
 " shows it in a pending mode. When the transaction is mined, the number of"
 " pending transactions is updated and the transaction is added to the log "
 "([see terminal](terminal.html))."
 msgstr ""
-"验证交易需要几秒钟。在此期间，GUI 会将这笔显示为 Pending 状态。 当交易被打包时，Pending "
-"交易的数量被更新，并且交易被添加到日志中(见终端)。"
+"验证交易需要几秒钟。在此期间， GUI 会将这笔显示为 Pending 状态。 当交易被打包时， Pending "
+"交易的数量被更新，并且交易被添加到日志中([见终端](terminal.html))。"
 
 #: ../../run.md:128
 msgid "Using the Recorder"
 msgstr "使用记录器"
 
 #: ../../run.md:131
-#, fuzzy
 msgid ""
 "The Recorder is a tool used to save a bunch of transactions in a JSON "
 "file and re-run them later either in the same environment or in another."
@@ -378,7 +354,6 @@ msgid "For instance:"
 msgstr "例如："
 
 #: ../../run.md:140
-#, fuzzy
 msgid ""
 "After having coded and tested contracts in a constrained environment "
 "(like the Remix VM), you could then change the environment and redeploy "
@@ -390,14 +365,14 @@ msgid ""
 "protect your sanity."
 msgstr ""
 "在受限环境(如 Remix VM)中对合约进行编码和测试后，您可以更改环境并将其重新部署到更真实的环境中，例如公共测试网或 Geth 节点。 "
-"通过事先生成好的scenario.json 文件，您使用的所有设置都可以和在 Remix VM 中使用时保持一致。 这意味着您无需在界面上点击 "
+"通过事先生成好的 **scenario.json** 文件，您使用的所有设置都可以和在 Remix VM 中使用时保持一致。 这意味着您无需在界面上点击 "
 "100 次或其他任何操作即可获得您之前达到的状态。 所以记录器这个工具可以让你保持淡定。"
 
 #: ../../run.md:143
 msgid ""
 "You can also change the settings in the scenario.json file to customize "
 "the playback."
-msgstr "您还可以更改scenario.json 文件中的设置来自定义交易回放。"
+msgstr "您还可以更改 scenario.json 文件中的设置来自定义交易回放。"
 
 #: ../../run.md:145
 msgid ""
@@ -406,7 +381,6 @@ msgid ""
 msgstr "部署合约通常需要的不仅仅是创建一个交易，因此记录器将自动执行这个部署流程。"
 
 #: ../../run.md:148
-#, fuzzy
 msgid ""
 "Working in a dev environment often requires setting up the state in a "
 "first place."
@@ -417,19 +391,17 @@ msgid "![](images/a-recorder.png)"
 msgstr ""
 
 #: ../../run.md:153
-#, fuzzy
 msgid ""
 "When checked, the option `Run transactions using the last compilation "
 "result` allows you to develop a contract and easily set the state using "
 "**the latest compiled versions of the contracts.**"
-msgstr "选中 使用最新的编译结果运行交易 这个选项后，您可以在开发合约的同时很方便地使用最新的编译结果设置初始状态。"
+msgstr "选中 `使用最新的编译结果运行交易` 这个选项后，您可以在开发合约的同时很方便地使用**最新的编译结果**设置初始状态。"
 
 #: ../../run.md:155
 msgid "scenario.json"
 msgstr "scenario.json"
 
 #: ../../run.md:156
-#, fuzzy
 msgid ""
 "To create this file in the recorder, you first of course need to have run"
 " some transactions.  In the image above - it has a `0` next to "
@@ -438,7 +410,7 @@ msgid ""
 " a transaction, that number will increment.  Then when you are ready, "
 "click the floppy disk icon and the scenario.json file will be created."
 msgstr ""
-"要在记录器中创建这个文件，您当然需要先运行一些交易。 在上图中 - 已记录交易旁边的数字是 0。 所以现在保存交易还不是时候 — 因为没有交易。 "
+"要在记录器中创建这个文件，您当然需要先运行一些交易。 在上图中 - **已记录交易**旁边的数字是 `0`。 所以现在保存交易还不是时候 — 因为没有交易。 "
 "每次您发一笔交易，这个数字都会增加。 然后，当你把该发的交易都发完了以后，点击 保存 按钮，就会创建 scenario.json 文件。"
 
 #: ../../run.md:158
@@ -450,12 +422,10 @@ msgid "In it, 3 transactions are executed:"
 msgstr "在其中，执行了 3 笔交易："
 
 #: ../../run.md:162
-#, fuzzy
 msgid "The first corresponds to the deployment of the lib `testLib`."
-msgstr "第一笔交易对应 testLib 库的部署。"
+msgstr "第一笔交易对应 `testLib` 库的部署。"
 
 #: ../../run.md:164
-#, fuzzy
 msgid ""
 "The second corresponds to the deployment of the contract `test` with the "
 "first parameter of the constructor set to 11. That contract depends on a "
@@ -464,26 +434,24 @@ msgid ""
 "`created{1512830014773}`. The number is the id (timestamp) of the "
 "transaction that led to the creation of the library."
 msgstr ""
-"第二个笔交易对应 test 合约的部署，构造函数的第一个参数设置为 11。该合约依赖于一个库。 这个库的关联引用是用属性 "
-"linkReferences 来指定的。 在这种情况下，我们会使用之前创建的库的地址：created{1512830014773} 。 "
+"第二个笔交易对应 `test` 合约的部署，构造函数的第一个参数设置为 11。该合约依赖于一个库。 这个库的关联引用是用属性 "
+"`linkReferences` 来指定的。 在这种情况下，我们会使用之前创建的库的地址：`created{1512830014773}` 。 "
 "这个数字是创建这个库的交易的 id(时间戳)。"
 
 #: ../../run.md:171
-#, fuzzy
 msgid ""
 "The third record corresponds to the call to the function `set` of the "
 "contract `test` (the property to is set to: `created{1512830015080}`) . "
 "Input parameters are `1` and `0xca35b7d915458ef540ade6068dfe2f44e8fa733c`"
 msgstr ""
-"第三笔交易对应 test 合约的 set 函数的调用(属性 to 设置为：created{1512830015080})。 输入参数为 1 和 "
-"0xca35b7d915458ef540ade6068dfe2f44e8fa733c"
+"第三笔交易对应 `test` 合约的 `set` 函数的调用(属性 to 设置为：`created{1512830015080}`)。 输入参数为 `1` 和 "
+"`0xca35b7d915458ef540ade6068dfe2f44e8fa733c`"
 
 #: ../../run.md:176
-#, fuzzy
 msgid ""
 "All these transactions are created using the value of the accounts "
 "`account{0}`."
-msgstr "所有这些交易都是用账户 account{0} 的以太币来创建的。"
+msgstr "所有这些交易都是用账户 `account{0}` 的以太币来创建的。"
 
 #~ msgid ""
 #~ "JavaScript VM: All the transactions will"

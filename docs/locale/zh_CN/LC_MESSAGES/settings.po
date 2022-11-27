@@ -19,11 +19,10 @@ msgid "Settings"
 msgstr "设置"
 
 #: ../../settings.md:4
-#, fuzzy
 msgid ""
 "To get to **Settings** click the gear at the very bottom of the icon "
 "panel."
-msgstr "点击图标面板最下方的齿轮状图标即可进入设置。"
+msgstr "点击图标面板最下方的齿轮状图标即可进入**设置**。"
 
 #: ../../settings.md:6
 msgid "Reset Button"
@@ -44,38 +43,38 @@ msgid "![](images/a-settings-general.png)"
 msgstr ""
 
 #: ../../settings.md:12
-#, fuzzy
 msgid ""
 "Generate contract metadata is used for deploying with libraries.  See our"
 " blog post on the subject: [Deploying with Libraries](https://medium.com"
 "/remix-ide/deploying-with-libraries-on-remix-ide-"
 "24f5f7423b60?sk=68f9c2bf318e85e129e46fe44683a730)"
-msgstr "生成合约元数据是为了部署含有库的合约。看我们的博客: Deploying with Libraries"
+msgstr ""
+"生成合约元数据是为了部署含有库的合约。看我们的博客: "
+"[Deploying with Libraries](https://medium.com"
+"/remix-ide/deploying-with-libraries-on-remix-ide-"
+"24f5f7423b60?sk=68f9c2bf318e85e129e46fe44683a730)"
 
 #: ../../settings.md:13
-#, fuzzy
 msgid ""
 "Always use Remix VM at Load: will make the Remix VM the selected "
 "**environment** when Remix loads."
-msgstr "加载时始终使用 Remix 虚拟机：会在 Remix 加载时选中 Remix 虚拟机作为网络环境"
+msgstr "加载时始终使用 Remix 虚拟机：会在 Remix 加载时选中 Remix 虚拟机作为**环境**"
 
 #: ../../settings.md:14
 msgid "Text wrap: controls if the text in the editor should be wrapped."
 msgstr "文本换行：控制编辑器中的文本是否应换行。"
 
 #: ../../settings.md:15
-#, fuzzy
 msgid ""
 "Personal mode: can be used when one is connecting to a **local node**.  "
 "It is used to have Remix temporarily save the passphrase - so that you "
 "don't need to **unlock** the account in GETH.  Remix will not persist the"
 " passphrase - so if you refresh your browser the passphrase will be gone."
 msgstr ""
-"个人模式：可以在连接到本地节点时使用。它可以让 Remix 临时保存密码 - 这样您就不需要在 GETH 中解锁帐户。 Remix 不会保留密码 "
+"个人模式：可以在连接到**本地节点**时使用。它可以让 Remix 临时保存密码 - 这样您就不需要在 GETH 中**解锁**帐户。 Remix 不会保留密码 "
 "- 因此，如果您刷新浏览器，密码将消失。"
 
 #: ../../settings.md:16
-#, fuzzy
 msgid ""
 "Matomo Analytics: This is where you can turn off and on your approval for"
 " us to use Matomo.  We do not collect any personally identifiable "
@@ -84,14 +83,14 @@ msgid ""
 "66ef69e14931?source=friends_link&sk=cf9c62fbe1270543eb4bd912e567e2d6)."
 msgstr ""
 "Matomo 分析：您可以在此处停用和启用您对我们使用 Matomo 的授权。我们不收集任何个人身份信息 "
-"(PII)，我们的报告是公开的。请参阅我们关于该主题的博客文章。"
+"(PII)，我们的报告是公开的。请参阅我们[关于该主题的博客文章](https://medium.com/remix-"
+"ide/help-us-improve-remix-ide-66ef69e14931?source=friends_link&sk=cf9c62fbe1270543eb4bd912e567e2d6)。"
 
 #: ../../settings.md:18
 msgid "Github Access Token"
 msgstr "Github 访问令牌"
 
 #: ../../settings.md:20
-#, fuzzy
 msgid ""
 "When performing Git operations on Github and when creating GISTs, it may "
 "be necessary to input an access token.  This token has the specific "
@@ -102,7 +101,8 @@ msgid ""
 msgstr ""
 "在 Github 上执行 Git 操作和创建 GIST 时，可能需要输入访问令牌。此令牌具有您的 Git "
 "命令的特定权限。根据操作的不同，您可能还需要输入您的 Github 用户名和电子邮件地址。 Remix "
-"不会将您的密码信息保存在浏览器的本地存储之外。https://github.com/settings/tokens"
+"不会将您的密码信息保存在浏览器的本地存储之外。"
+"[https://github.com/settings/tokens](https://github.com/settings/tokens)"
 
 #: ../../settings.md:22
 msgid "![](images/a-settings-gh-token.png)"
@@ -123,16 +123,14 @@ msgstr ""
 "插件验证合约时，您需要将 API 密钥放在该插件中，而不是在设置面板中。"
 
 #: ../../settings.md:28
-#, fuzzy
 msgid "Click [here](https://etherscan.io/myapikey) to get your Etherscan API key."
-msgstr "点击此处获取您的 Etherscan API 密钥。"
+msgstr "点击[此处](https://etherscan.io/myapikey)获取您的 Etherscan API 密钥。"
 
 #: ../../settings.md:30
 msgid "![](images/a-settings-etherscan.png)"
 msgstr ""
 
 #: ../../settings.md:32
-#, fuzzy
 msgid "Swarm Settings"
 msgstr "Swarm 设置"
 
@@ -158,7 +156,6 @@ msgid "![](images/a-settings-swarm.png)"
 msgstr ""
 
 #: ../../settings.md:42
-#, fuzzy
 msgid "IPFS Settings"
 msgstr "IPFS 设置"
 
@@ -179,11 +176,10 @@ msgid "Other options are to:"
 msgstr "其他选择是："
 
 #: ../../settings.md:48
-#, fuzzy
 msgid ""
 "Use your own INFURA IPFS node. This requires a subscription. [Learn "
 "more](https://infura.io/product/ipfs)"
-msgstr "使用您自己的 INFURA IPFS 节点。这需要订阅。了解更多"
+msgstr "使用您自己的 INFURA IPFS 节点。这需要订阅。[了解更多](https://infura.io/product/ipfs)"
 
 #: ../../settings.md:49
 msgid "Use any external IPFS which doesn’t require any authentification."

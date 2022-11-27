@@ -23,11 +23,10 @@ msgid "![](images/a-plugin-man-overview.png)"
 msgstr ""
 
 #: ../../plugin_manager.md:6
-#, fuzzy
 msgid ""
 "In Remix IDE you only load the functionality you need.  Controlling which"
 " plugins are active or inactive happens in the **Plugin Manager**."
-msgstr "在 Remix IDE 中，您可以只加载您需要的功能。在插件管理器中可以控制哪些插件是启用的或停用的。"
+msgstr "在 Remix IDE 中，您可以只加载您需要的功能。在**插件管理器**中可以控制哪些插件是启用的或停用的。"
 
 #: ../../plugin_manager.md:8
 msgid ""
@@ -53,24 +52,24 @@ msgid "![](images/a-permission-modal.png)"
 msgstr ""
 
 #: ../../plugin_manager.md:15
-#, fuzzy
 msgid ""
 "Often, the same plugin will want to do the same action multiple times.  "
 "So when granting permission, its helpful to click the **Remember this "
 "choice** box.  If you don't, you might get this modal repeatedly popping "
 "up."
-msgstr "通常，同一个插件会想要多次执行相同的操作。因此，在授予权限时，最好选中“记住此选项”的复选框。如果不这样做，这个对话框可能会反复弹出。"
+msgstr ""
+"通常，同一个插件会想要多次执行相同的操作。因此，在授予权限时，最好选中**记住此选项**的复选框。"
+"如果不这样做，这个对话框可能会反复弹出。"
 
 #: ../../plugin_manager.md:17
 msgid "View permissions"
 msgstr "查看权限"
 
 #: ../../plugin_manager.md:18
-#, fuzzy
 msgid ""
 "You can view the permissions that you have granted to plugins by clicking"
 " on the **Permissions** button at the bottom of the **Plugin Manager**."
-msgstr "您可以通过单击插件管理器底部的权限按钮来查看您授予插件的权限。"
+msgstr "您可以通过单击**插件管理器**底部的**权限**按钮来查看您授予插件的权限。"
 
 #: ../../plugin_manager.md:20
 msgid "![](images/a-plugin-man-permissions.png)"
@@ -102,9 +101,9 @@ msgid "![](images/a-plugin-man-local.png)"
 msgstr ""
 
 #: ../../plugin_manager.md:32
-#, fuzzy
 msgid ""
 "To learn more about how to create your own plugin, go to [the README of "
 "remix-plugin repo](https://github.com/ethereum/remix-plugin)."
-msgstr "要了解更多有关如何创建自己的插件的信息，请转到 remix-plugin 代码仓库 的 README。"
+msgstr "要了解更多有关如何创建自己的插件的信息，请转到 "
+"[remix-plugin 代码仓库 的 README](https://github.com/ethereum/remix-plugin)。"
 
