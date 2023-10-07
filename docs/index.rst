@@ -14,6 +14,8 @@ Supported browsers: Firefox, Chrome, Brave. We do not support use of Remix on ta
 **Ethereum Remix**, the VSCode extension, see `here <https://marketplace.visualstudio.com/items?itemName=RemixProject.ethereum-remix>`__.  
 Documentation for the VSCode extension is located `here <https://github.com/ethereum/remix-vscode#ethereum-remix-project-extension-for-visual-studio-code>`__.
 
+**Remix Documentation Translations** The Remix docs are currently in `English <https://remix-ide.readthedocs.io/en/latest/>`__ and `Simplified Chinese <https://remix-ide.readthedocs.io/zh_CN/latest/>`__.  More languages are on the way.
+
 Remix Project
 ~~~~~~~~~~~~~
 Remix IDE is part of the `Remix Project <https://github.com/ethereum/remix-project>`__ which also includes the
@@ -48,23 +50,29 @@ Useful links:
 
 .. toctree::
    :maxdepth: 2
-   :caption: New Layout Intro
+   :caption: Introduction
 
    layout
+   security
+   remix_tutorials_learneth
+   locations
+   FAQ
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tour of default modules
+   :caption: Core Modules
 
    file_explorer
+   search_in_fe
    plugin_manager
    settings
    solidity_editor
    terminal
+   remixd
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tour of typical solidity modules
+   :caption: Solidity modules
 
    compile
    run
@@ -75,16 +83,17 @@ Useful links:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Solidity Unit Testing
+   :caption: Unit Testing
 
    unittesting
    unittestingAsCLI
    assert_library
    unittesting_examples
+   testing_using_Chai_&_Mocha
 
 .. toctree::
    :maxdepth: 2
-   :caption: Native External Integrations
+   :caption: External Tool Integrations
 
    hardhat
    truffle
@@ -93,27 +102,27 @@ Useful links:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Using Remix
+   :caption: Guides
    
-   contract_metadata
    create_deploy
    tutorial_debug
    import
-   plugin_list
-   remix_commands
+   contract_verification
    running_js_scripts
-   testing_using_Chai_&_Mocha
    FAS
-   remixd
-   security
-   FAQ
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Advanced
+
+   contract_metadata
+   remix_commands
 
 .. toctree::
    :maxdepth: 2
    :caption: Miscellaneous
 
-   locations
+   plugin_list
    remix_as_code_viewer
-   remix_tutorials_learneth
    code_contribution_guide
    community

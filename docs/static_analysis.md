@@ -1,43 +1,57 @@
-Solidity Static Analysis
+Solidity Analyzers
 ========================
 
-Static code analysis is a process to debug the code by examining it and without actually executing the code. 
+Static code analysis is a process of debugging code by examining it without executing it. 
 
-`Solidity Static Analysis` plugin performs static analysis on Solidity smart contracts once they are compiled. It checks for security vulnerabilities and bad development practices, among other issues. It can be activated from Remix `Plugin Manager`.
+The `Solidity Analyzers` plugin gangs three analysis tools together to perform static analysis on Solidity smart contracts. Each tool checks for security vulnerabilities and bad development practices, among other issues. It can be activated from Remix `Plugin Manager`.
 
-![](images/a-static-analysis-from-pm.png)
+![](images/a-ssa-activate.png)
 
-This plugin comes with `Solidity` environment of Remix IDE. 
+`Solidity Analyzers` can also be loaded by clicking on the `Solidity` icon in the featured plugins section of Remix's home tab.  This button loads the following plugins: Solidity Compiler, Solidity Unit Testing, and Static Analyzers.
+
+`Solidity Analyzers` uses these tools:
+- [Remix Analysis](#remix-analysis): a basic analysis tool
+- [Solhint linter](https://github.com/protofire/solhint#rules): a Solidity linter for code and style guide validations
+- [Slither Static Analysis](https://github.com/crytic/slither#slither-the-solidity-source-analyzer): a comprehensive static analysis tool
+
+**NOTE:** Slither can only be used when Remix is connected to the local computer's filesystem with [Remixd](remix.html).
 
 How to use
 ------------
 
-If you select this plugin, you will see a number of modules listed along with checkboxes, one `Auto run` checkbox and a `Run` button. `Run` button will be disabled as there is no compiled contract for now. 
+**A contract must be compiled before analysis can be run.**
 
-![](images/a-static-analysis-onload.png)
+At the top of the panel, check the tools that you want to use.
 
-By default, all modules are selected for analysing a smart contract.
+![](images/a-ssa-1.png)
 
-One can select/deselect the modules under which contract should be analyzed and can run the analysis for last compiled contract by clicking on `Run`.
+### Errors & Warnings
+By default, `Solidity Analyzers` will show both errors and warnings.  The combined number of errors and warnings are shown in the badge in that tools tab.
 
-If `Auto run` checkbox is checked, analysis will be performed each time a contract is compiled. Uncheck the checkbox if you want to stop this behaviour.
+![](images/a-ssa-err-warn.png)
 
-Run
-------
+If you check `Hide warnings`, warnings will be hidden and you'll exclusively see the errors. 
 
-If `Auto run` checkbox is checked, analysis will be performed on compiling a contract and result will be shown as badge to the plugin icon. This number tells warnings count for the contract (e.g; `12` in attached image below) .
+**NOTE:** Remix Analysis does not flag error - it only shows warnings so if you check `Hide warnings`, nothing will show in the Remix Analysis tab.
 
-By visiting the plugin UI, the details of the warning can be seen along with the category name for each warning.
+![](images/a-ssa-show-hide-warnings.png)
 
-Clicking on warning details will highlight the relevant code in the editor.
+#### Warnings from external libraries
 
+By default, warnings from external libraries are not shown.  If you check the box `Show warnings for external libraries`, the tools will also analyse the external libraries for warnings.
 
-![](images/a-static-analysis.png)
+Slither
+-------
+To run [Slither](https://github.com/crytic/slither#slither-the-solidity-source-analyzer) with this plugin, you need to connect Remix IDE to your filesystem with [Remixd](remix.html).  Once Remixd is running, Slither is automatically loaded. 
 
-Analysis Modules
------------------
+Solhint
+-------
+The [Solhint](https://github.com/protofire/solhint#rules) linter can be run without connecting Remix to your filesystem.  
 
-Currently, with Remix IDE v0.10.1, there are 21 analysis modules listed under 4 categories. Categories are: `Security`, `Gas & Economy`, `ERC` & `Miscellaneous`.
+Remix Analysis
+----------------------
+
+Remix Analysis has 4 categories: `Security`, `Gas & Economy`, `ERC` & `Miscellaneous`.
 
 Here is the list of modules under each category along with the example code which **should be avoided or used very carefully while development**:
 
@@ -75,7 +89,7 @@ assembly {
             let size := extcodesize(_addr)
 }
 ```
--   **Block timestamp: Semantics maybe unclear**
+-   **Block timestamp: Semantics may be unclear**
 
 `now` does not mean current time. `now` is an alias for `block.timestamp`. `block.timestamp` can be influenced by miners to a certain degree, be careful.
 
@@ -88,7 +102,7 @@ if(startDate > now)
 // using block.timestamp
 uint c = block.timestamp;
 ```
--   **Low level calls: Semantics maybe unclear**
+-   **Low level calls: Semantics may be unclear**
 
 Use of low level `call`, `callcode` or `delegatecall` should be avoided whenever possible. `send` does not throw an exception when not successful, make sure you deal with the failure case accordingly. Use `transfer` whenever failure of the ether transfer should rollback the whole transaction.
 
@@ -308,6 +322,6 @@ function contribute() payable public {
 
 Remix-analyzer
 -----------------
-`remix-analyzer` is the library which works underneath of remix-ide `Solidity Static Analysis` plugin.
+`remix-analyzer` is the library which works underneath the Remix Analysis tool.
 
 `remix-analyzer` is an [NPM package](https://www.npmjs.com/package/@remix-project/remix-analyzer). It can be used as a library in a solution supporting node.js. Find more information about this type of usage in the [remix-analyzer repository](https://github.com/ethereum/remix-project/tree/master/libs/remix-analyzer#how-to-use)
