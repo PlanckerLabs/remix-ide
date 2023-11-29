@@ -2,6 +2,7 @@ import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import HttpsProxyAgent from 'https-proxy-agent'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,7 +22,8 @@ for (const key in files_tree) {
 console.log(file_list)
 for (let index = 0; index < file_list.length; index++) {
   const file = file_list[index];
-  const resp = await fetch(file_export_url.replace('{id}', file.id), { headers: { cookie } });
+  const proxyAgent = new HttpsProxyAgent('http://127.0.0.1:7890');
+  const resp = await fetch(file_export_url.replace('{id}', file.id), { headers: { cookie }, agent: proxyAgent });
   const { url } = await resp.json();
   const resp2 = await fetch(url, {
     method: 'GET',
